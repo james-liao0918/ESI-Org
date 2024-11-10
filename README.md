@@ -26,7 +26,9 @@ Interested in joining ESI Org? We welcome motivated and skilled contributors to 
 
 ## Additional Information
 
-Feel free to explore the individual repositories of each coin or token to dive deeper into their specifications, mission, and development roadmap. We look forward to building a transformative financial future with you!
+Feel free to explore the individual repositories of each coin or token to dive deeper into their specifications, mission, and development roadmap. You can check them out [here](https://github.com/orgs/ESI-Org/repositories).
+
+We look forward to building a transformative financial future with you!
 
 ---
 
