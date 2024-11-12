@@ -1,80 +1,119 @@
-import datetime
+import socket
+import json
+import logging
+import ssl
+import time
 
-class Blockchain:
-    
-    def __init__(self, name, block_time_interval):
-        self.name = name
-        self.block_time_interval = block_time_interval
-        self.blocks = []
-        self.transactions = []
-        
-    def add_transactions(self, transaction):
-        self.transactions.append(transactions)
-        print(f"transaction added to {self.name}")
-        
-    def create_block(self):
-        current_timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        if len(self.blocks) == 0:
-            previous_hash = None
+# mainnet.py
+
+# Set up logging
+logging.basicConfig(level=logging.INFO)
+
+# Define Constants for ESI Mainnet
+TRANSACTION_EXPIRY_TIME = 300  # 5 minutes expiry time for transactions
+
+# Global Variables
+transaction_pool = {}
+transaction_timestamps = {}
+
+# SSL context for secure communication
+def create_ssl_context():
+    context = ssl.create_default_context(ssl.Purpose.CLIENT_AUTH)
+    context.load_cert_chain(certfile="mainnet_cert.pem", keyfile="mainnet_key.pem")
+    return context
+
+# Step 1: Node Initialization (Generate Keys for Mainnet Communication)
+def generate_keys():
+    # Logic to generate Mainnet private and public keys
+    pass
+
+# Step 2: Add Transaction to Pool
+def add_transaction(transaction, sender_public_key):
+    # Add transaction to the pool and broadcast it to sub-blockchains
+    is_valid, message = validate_transaction(transaction)
+    if is_valid:
+        signature = transaction["signature"]
+        if verify_transaction(transaction, signature, sender_public_key):
+            transaction_pool[transaction["id"]] = transaction
+            transaction_timestamps[transaction["id"]] = time.time()
+            logging.info(f"Transaction added: {transaction}")
+            broadcast_transaction(transaction)
         else:
-            previous_hash = self.blocks[-1]["hash"]
-        
-        block = {
-            "index": len(self.blocks) + 1,
-            "timestamp": current_timestamp,
-            "previous_hash": previous_hash,
-        }
-        
-        block["hash"] = self.generate_block_hash(block)
-        self.blocks.append(block)
-        self.transactions = []
-        print(f"Block {block['index']} created for {self.name} at {current_timestamp}")
-    
-    def generate_block_hash(self, block):
-        return f"hash_{block["index"]}"
-    
-    def start_block_creation(self):
-        print(f"Starting block creation for {self.name} every {self.block_time_interval} seconds")
-        self.create_block()
-        
-class ESI_Mainnet:
-    
-    def __init__(self):
-        self.blockchains = []
-        
-    def add_blockchain(self, blockchain):
-        self.blockchains.append(blockchain)
-        print(f"blockchain {blockchain.name} added to ESI Mainnet")
-        
-    def start_network(self):
-        print("Starting the ESI Mainnet")
-        for blockchain in self.blockchains:
-            blockchain.start_block_creation()
+            logging.warning("Invalid transaction signature.")
+    else:
+        logging.warning(f"Invalid transaction: {message}")
 
-    def list_blockchains(self):
-        print("Blockchains under the ESI Mainnet:")
-        for blockchain in self.blockchains:
-            print(f"- {blockchain.name}")
+# Step 3: Broadcast Transactions to Other Nodes
+def broadcast_transaction(transaction):
+    # Broadcasting the transaction to other sub-blockchains (EIC-01, EID-01, etc.)
+    for node_name, port in [("EIC-01", 12345), ("EID-01", 12346)]:
+        try:
+            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
+                sock.connect(('localhost', port))  # Connect to the sub-blockchain node
+                context = create_ssl_context()
+                sock = context.wrap_socket(sock, server_side=False)
+                transaction_message = json.dumps(transaction)
+                sock.sendall(f"New Transaction: {transaction_message}".encode())
+                response = sock.recv(1024)
+                logging.info(f"Transaction broadcast to {node_name}, response: {response.decode()}")
+        except Exception as e:
+            logging.error(f"Failed to broadcast transaction to {node_name}: {e}")
 
-ESI_Mainnet = ESI_Mainnet()
+# Step 4: Verify Transactions (Signature Validation)
+def verify_transaction(transaction, signature, public_key):
+    # Transaction verification logic (using RSA or other methods)
+    pass
 
-ESI_01 = Blockchain("ESI-01", block_time_interval=2)
-EIC_01 = Blockchain("EIC-01", block_time_interval=4)
-EIP_01 = Blockchain("EIP-01", block_time_interval=6)
-EID_01 = Blockchain("EID-01", block_time_interval=8)
-EIO_01 = Blockchain("EIO-01", block_time_interval=10)
-EIE_01 = Blockchain("EIE-01", block_time_interval=12)
-EIB_01 = Blockchain("EIB-01", block_time_interval=14)
-EIBE_01 = Blockchain("EIBE-01", block_time_interval=16)
+# Step 5: Validate Transaction Data
+def validate_transaction(transaction):
+    if transaction["amount"] <= 0:
+        return False, "Amount must be greater than zero."
+    if "id" not in transaction or not transaction["id"]:
+        return False, "Transaction ID is missing or invalid."
+    return True, ""
 
-ESI_Mainnet.add_blockchain(ESI_01)
-ESI_Mainnet.add_blockchain(EIC_01)
-ESI_Mainnet.add_blockchain(EIP_01)
-ESI_Mainnet.add_blockchain(EID_01)
-ESI_Mainnet.add_blockchain(EIO_01)
-ESI_Mainnet.add_blockchain(EIE_01)
-ESI_Mainnet.add_blockchain(EIB_01)
-ESI_Mainnet.add_blockchain(EIBE_01)
+# Step 6: Cleanup Expired Transactions
+def cleanup_expired_transactions():
+    current_time = time.time()
+    for txn_id, timestamp in list(transaction_timestamps.items()):
+        if current_time - timestamp > TRANSACTION_EXPIRY_TIME:
+            del transaction_pool[txn_id]
+            del transaction_timestamps[txn_id]
+            logging.info(f"Expired transaction {txn_id} removed.")
 
-ESI_Mainnet.list_blockchains()
-ESI_Mainnet.start_network()
+# Step 7: Monitor Communication with Sub-Blockchains (EIC-01, EID-01)
+def monitor_sub_blockchains(nodes):
+    for node_name, port in nodes:
+        try:
+            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
+                sock.connect(('localhost', port))
+                context = create_ssl_context()
+                sock = context.wrap_socket(sock, server_side=False)
+                sock.sendall(b"Requesting transaction pool status")
+                response = sock.recv(1024)
+                logging.info(f"Response from {node_name}: {response.decode()}")
+        except Exception as e:
+            logging.error(f"Failed to monitor {node_name}: {e}")
+
+# Main Execution Logic for the ESI Mainnet
+if __name__ == "__main__":
+    # Generate Mainnet keys (or use a fixed keypair for now)
+    generate_keys()
+
+    # Sample Transaction Example
+    transaction = {
+        "id": "txn_1234",
+        "sender": "mainnet_node_1",
+        "receiver": "sub_blockchain_node_1",
+        "amount": 100,
+        "signature": "sample_signature"
+    }
+
+    # Add Transaction to Pool
+    add_transaction(transaction, "sender_public_key")
+
+    # Main Loop for the Node (Listening and Monitoring)
+    while True:
+        monitor_sub_blockchains([("EIC-01", 12345), ("EID-01", 12346)])  # Monitor EIC and EID sub-blockchains
+        cleanup_expired_transactions()
+        time.sleep(30)
