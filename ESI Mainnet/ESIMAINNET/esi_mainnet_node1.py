@@ -2,7 +2,7 @@ import socket
 import threading
 import logging
 import time
-from esi_mainnet import ESI_Mainnet
+from ..ESIMAINNET.esi_mainnet import ESI_Mainnet
 
 logging.basicConfig(level=logging.INFO)
 
