@@ -9,9 +9,11 @@ ESI Org is focused on developing, expanding, and enhancing the ecosystem around 
 ## Our Tokens
 
 ### EsiCoin
+
 EsiCoin is designed to offer secure and scalable solutions, enabling swift transactions and efficient services within our ecosystem. As one of our core tokens, EsiCoin empowers our community by providing utility and value within the ESI ecosystem.
 
 ### EsiPeso
+
 EsiPeso complements EsiCoin as a stable and accessible token, catering especially to users and businesses in emerging markets. EsiPeso’s mission is to enhance financial inclusion by offering a reliable store of value and means of exchange on the blockchain.
 
 *Further information on each token, including Pre-ICO (PICO) details, can be found in the individual repositories.*
@@ -26,7 +28,7 @@ Interested in joining ESI Org? We welcome motivated and skilled contributors to 
 
 ## Additional Information
 
-Feel free to explore the individual repositories of each coin or token to dive deeper into their specifications, mission, and development roadmap. You can check them out [here](https://github.com/orgs/ESI-Org/repositories).
+Feel free to explore the individual repositories of each coin or token to dive deeper into their specifications, mission, and development roadmap. You can check them out.
 
 We look forward to building a transformative financial future with you!
 
