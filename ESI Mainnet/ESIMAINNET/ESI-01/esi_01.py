@@ -1,9 +1,7 @@
 import logging
 import socket
 import threading
-
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from ..ESI Mainnet.esi_mainnet import ESI_Mainnet
+from ESIMAINNET.esi_mainnet import ESI_Mainnet
 
 logging.basicConfig(level=logging.INFO)
 
