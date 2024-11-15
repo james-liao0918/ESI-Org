@@ -1,6 +1,10 @@
 import logging
 import socket
 import threading
+import sys
+
+sys.path.append('C:/Users/James Liao/Desktop/Github Repos/ESI-Org/ESI Mainnet/')
+
 from ESIMAINNET.esi_mainnet import ESI_Mainnet
 
 logging.basicConfig(level=logging.INFO)
@@ -66,5 +70,5 @@ class ESI01MainBlockchain:
     
 if __name__ == "__main__":
     esi_mainnet = ESI_Mainnet() 
-    esi_01_node = ESI_01_MainBlockchain(node_id=1, esi_mainnet=esi_mainnet, port=6000)
+    esi_01_node = ESI01MainBlockchain(node_id=1, esi_mainnet=esi_mainnet, port=6000)
     esi_01_node.start_main_blockchain()
