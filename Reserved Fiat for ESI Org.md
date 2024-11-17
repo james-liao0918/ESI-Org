@@ -1,7 +1,7 @@
 # **Reserved Fiats**
 
 **Objective:**  
-The **Reserved Fiats** section explains how fiat currency reserves are used to ensure the stability, liquidity, and confidence in the value of **EsiCoin (EIC)**, **EsiPeso (EIP)**, and **EsiCrypto (EIO)**. These reserves serve to maintain the 1:1 peg of **EsiPeso (EIP)** to local fiat currencies and support the overall liquidity of the ecosystem.
+The **Reserved Fiats** section explains how fiat currency reserves are used to ensure the stability, liquidity, and confidence in the value of **EsiCoin (EIC)**, **EsiPeso (EIP)**. These reserves serve to maintain the 1:1 peg of **EsiPeso (EIP)** to local fiat currencies and support the overall liquidity of the ecosystem.
 
 ---
 
