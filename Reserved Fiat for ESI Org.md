@@ -1,16 +1,18 @@
 # **Reserved Fiats**
 
 **Objective:**  
-The **Reserved Fiats** section explains how fiat currency reserves are used to ensure the stability, liquidity, and confidence in the value of **EsiCoin (EIC)**, **EsiPeso (EIP)**. These reserves serve to maintain the 1:1 peg of **EsiPeso (EIP)** to local fiat currencies and support the overall liquidity of the ecosystem.
+The **Reserved Fiats** section explains how fiat currency reserves are used to ensure the stability, liquidity, and confidence in the value of **EsiCoin (EIC)**, **EsiPeso (EIP)**, **EsiUSD (EID)**, and other assets within the **ESI Org** ecosystem. These reserves serve to maintain the 1:1 peg of **EsiPeso (EIP)** and **EsiUSD (EID)** to local fiat currencies and support the overall liquidity of the ecosystem.
 
 ---
 
 ## **1. Concept of Reserved Fiats**
 
-Reserved Fiats refer to **fiat currency reserves** backing the value of **EsiPeso (EIP)**, ensuring its peg stability, and supporting the liquidity of **EsiCoin (EIC)** and **EsiCrypto (EIO)**.
+Reserved Fiats refer to **fiat currency reserves** backing the value of **EsiPeso (EIP)** and **EsiUSD (EID)**, ensuring their peg stability, and supporting the liquidity of **EsiCoin (EIC)**.
 
 - **Fiat Currency Peg for EsiPeso (EIP):** EsiPeso is pegged 1:1 to local fiat currencies such as PHP (Philippine Peso) or USD, meaning that for every **EsiPeso** issued, there is an equivalent amount of fiat currency held in reserve, ensuring users can exchange **EsiPeso** for fiat at a stable rate.
-  
+
+- **Fiat Currency Peg for EsiUSD (EID):** EsiUSD is pegged 1:1 to the US Dollar (USD), meaning that for every **EsiUSD** issued, there is an equivalent amount of USD held in reserve, ensuring users can redeem **EsiUSD** for USD at a stable rate.
+
 - **EsiCoin (EIC) Reserve Support:** The reserve system also supports **EsiCoin (EIC)** by ensuring liquidity and stability for ecosystem transactions, facilitating smooth operations across all platforms.
 
 ---
@@ -24,29 +26,36 @@ The **fiat reserves** are held in secure custodial accounts or financial institu
   - Every **EsiPeso** issued is backed by an equivalent amount of fiat in the reserve pool.
   - Ensures that users can redeem **EsiPeso** at any time for the equivalent fiat amount.
 
+- **For EsiUSD (EID):**  
+  - 1:1 pegging with the **US Dollar (USD)**.
+  - Every **EsiUSD** issued is backed by an equivalent amount of USD in the reserve pool.
+  - Ensures that users can redeem **EsiUSD** at any time for the equivalent amount of USD.
+
 - **For EsiCoin (EIC):**  
   - Used as a utility token for various activities such as staking, savings, and yield generation within the ecosystem.
-  - **Fiat reserves** will support the value of **EsiCoin** as needed but are not tied directly in the same 1:1 manner as **EsiPeso**.
+  - **Fiat reserves** will support the value of **EsiCoin** as needed but are not tied directly in the same 1:1 manner as **EsiPeso** or **EsiUSD**.
 
 ---
 
 ## **3. Use of Reserved Fiats**
 
-The primary purpose of reserved fiats is to maintain the **1:1 peg** for **EsiPeso (EIP)** and provide liquidity for **EsiCoin (EIC)**. The following activities utilize the reserved fiats:
+The primary purpose of reserved fiats is to maintain the **1:1 peg** for **EsiPeso (EIP)** and **EsiUSD (EID)** and provide liquidity for **EsiCoin (EIC)**. The following activities utilize the reserved fiats:
 
 ### **a. Token Redemption**
 
 - Users can redeem **EsiPeso (EIP)** for fiat currency (e.g., PHP, USD) at any time, ensuring access to liquidity in fiat.
+- Users can redeem **EsiUSD (EID)** for USD at any time, ensuring access to liquidity in USD.
 - **EsiCoin (EIC)** redemption into fiat will depend on market conditions, with support from fiat reserves to stabilize the token's value.
 
 ### **b. Peg Maintenance**
 
 - The **EsiPeso (EIP)** peg will be maintained by ensuring that the reserve account holds an equivalent amount of fiat for each **EsiPeso** in circulation.
-- If **EsiPeso** deviates from its peg, fiat reserves will be used to redeem **EsiPeso** tokens to restore balance, ensuring price stability.
+- The **EsiUSD (EID)** peg will be maintained by ensuring that the reserve account holds an equivalent amount of USD for each **EsiUSD** in circulation.
+- If **EsiPeso** or **EsiUSD** deviates from its peg, fiat reserves will be used to redeem tokens to restore balance, ensuring price stability.
 
 ### **c. Support for Ecosystem Growth**
 
-- **Reserved fiats** will fund ecosystem activities, such as expanding liquidity pools, supporting operational costs, and facilitating new projects within the **EsiCoin (EIC)**, **EsiPeso (EIP)** networks.
+- **Reserved fiats** will fund ecosystem activities, such as expanding liquidity pools, supporting operational costs, and facilitating new projects within the **EsiCoin (EIC)**, **EsiPeso (EIP)**, and **EsiUSD (EID)** networks.
 - The reserves will also allow participation in external investment opportunities, contributing to revenue generation for the project and increasing value for users and stakeholders.
 
 ---
@@ -56,8 +65,8 @@ The primary purpose of reserved fiats is to maintain the **1:1 peg** for **EsiPe
 The security of fiat reserves is essential for the system's success. To ensure this, the following measures will be implemented:
 
 - **Third-Party Custodianship:** Reserves will be stored with trusted custodians or financial institutions with a history of security and compliance.
-- **Audits and Transparency:** Regular audits will verify that reserves match the amount of **EsiPeso** in circulation, ensuring transparency and trust.
-- **Smart Contract Integration:** The process of converting **EsiPeso (EIP)** to fiat, **EsiCoin (EIC)** to fiat, and vice versa will be managed via secure smart contracts, guaranteeing that the 1:1 peg is consistently maintained for **EsiPeso**, and the value of **EsiCoin** is supported.
+- **Audits and Transparency:** Regular audits will verify that reserves match the amount of **EsiPeso** and **EsiUSD** in circulation, ensuring transparency and trust.
+- **Smart Contract Integration:** The process of converting **EsiPeso (EIP)** to fiat, **EsiUSD (EID)** to fiat, **EsiCoin (EIC)** to fiat, and vice versa will be managed via secure smart contracts, guaranteeing that the 1:1 peg is consistently maintained for **EsiPeso** and **EsiUSD**, and the value of **EsiCoin** is supported.
 
 ---
 
@@ -67,7 +76,7 @@ Fiat reserves will also play a role in **staking**, **savings**, and **yield acc
 
 - Ensuring liquidity for **yield farming** and other high-interest investments.
 - Serving as a backing for liquidity pools and staking rewards, providing stability for users to earn rewards without concerns about token value fluctuations.
-  
+
 This will support long-term user engagement and further the platform’s growth and sustainability.
 
 ---
@@ -83,7 +92,7 @@ As the ecosystem matures, the strategy for fiat reserves will evolve:
 
 ## **7. Conclusion**
 
-The **Reserved Fiats** mechanism is fundamental to maintaining the stability and liquidity of the **EsiCoin (EIC)**, **EsiPeso (EIP)** ecosystems. By maintaining a secure and transparent reserve system, we ensure users can confidently redeem their tokens into fiat currency while supporting the platform's growth and expansion in the long term.
+The **Reserved Fiats** mechanism is fundamental to maintaining the stability and liquidity of the **EsiCoin (EIC)**, **EsiPeso (EIP)**, **EsiUSD (EID)** ecosystems. By maintaining a secure and transparent reserve system, we ensure users can confidently redeem their tokens into fiat currency while supporting the platform's growth and expansion in the long term.
 
 ---
 
