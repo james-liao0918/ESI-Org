@@ -68,15 +68,15 @@ Under **ESI-01**, sub-blockchains operate independently to manage specific coins
 
 ---
 
-## **Multi-Chain Compatibility**
+## **ESI Org for Standard Tokens**
 
-ESI Org leverages multiple blockchain platforms to ensure scalability and adaptability. Initially built on the **Binance Smart Chain (BSC)**, the ecosystem has potential expansions planned for **Ethereum**, **Solana**, and **Bitcoin** networks. This multi-chain approach ensures robust interoperability, security, and efficiency across the blockchain space.
+ESI Org leverages multiple standardize tokens to solve the problems that ESI Org was built for.
 
 ---
 
 ## **Staking, Savings, and Yield Accounts**
 
-The ESI Org ecosystem integrates **staking**, **savings**, and **yield accounts** across all coins, stablecoins, and sub-stablecoins, providing users with:
+The ESI Org ecosystem integrates **staking**, **savings**, and **yield accounts** across all coins providing users with:
 
 - **Passive Income Opportunities**: Earn rewards or interest on staked tokens.
 - **Long-Term Incentives**: Encourage holding tokens for ecosystem stability.
