@@ -1,7 +1,0 @@
-LICENSE
-README.md
-setup.py
-ESI_ORG.egg-info/PKG-INFO
-ESI_ORG.egg-info/SOURCES.txt
-ESI_ORG.egg-info/dependency_links.txt
-ESI_ORG.egg-info/top_level.txt
