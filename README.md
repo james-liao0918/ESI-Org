@@ -1,12 +1,12 @@
 # **ESI Org**
 
-Welcome to **ESI Org**, the foundation for a revolutionary blockchain ecosystem built on innovation, inclusivity, and scalability. At ESI Org, we are committed to shaping the future of decentralized finance by developing blockchain solutions, stablecoins, and token ecosystems that drive financial empowerment globally.
+Welcome to **ESI Org**, the foundation for a revolutionary blockchain ecosystem built on innovation, inclusivity, and scalability. At **ESI Org**, we are committed to shaping the future of decentralized finance by developing blockchain solutions, stablecoins, and token ecosystems that drive financial empowerment globally.
 
 ---
 
 ## **About ESI Org**
 
-ESI Org focuses on developing, expanding, and enhancing a multi-chain blockchain ecosystem. With a professional and collaborative approach, we strive to create a secure, efficient, and decentralized financial landscape for users worldwide. Each project under ESI Org works towards building a stable, adaptable, and inclusive cryptocurrency environment.
+**ESI Org** focuses on developing, expanding, and enhancing a multi-chain blockchain ecosystem. With a professional and collaborative approach, we strive to create a secure, efficient, and decentralized financial landscape for users worldwide. Each project under **ESI Org** works towards building a stable, adaptable, and inclusive cryptocurrency environment.
 
 ---
 
@@ -14,9 +14,9 @@ ESI Org focuses on developing, expanding, and enhancing a multi-chain blockchain
 
 The **ESI Org** ecosystem consists of multiple blockchains, coins, and stablecoins, each playing a pivotal role:
 
-### **1. Mainnet**
+### **1. ESI Mainnet**
 
-The **Mainnet** is the central network managing nodes and facilitating communication across the blockchain architecture. It connects sub-blockchains and ensures seamless cross-blockchain transactions.
+The **ESI Mainnet** is the central network managing nodes and facilitating communication across the blockchain architecture. It connects sub-blockchains and ensures seamless cross-blockchain transactions.
 
 ### **2. ESI-01**
 
@@ -70,13 +70,16 @@ Under **ESI-01**, sub-blockchains operate independently to manage specific coins
 
 ## **ESI Org for Standard Tokens**
 
-ESI Org leverages multiple standardize tokens to solve the problems that ESI Org was built for.
+**ESI Org** leverages multiple standardized tokens to solve the problems that **ESI Org** was built for. These tokens include:
+
+- **ESI Coin Token (ESICT)**
+- **ESI Standard Token (ESI-01T)**
 
 ---
 
 ## **Staking, Savings, and Yield Accounts**
 
-The ESI Org ecosystem integrates **staking**, **savings**, and **yield accounts** across all coins providing users with:
+The **ESI Org** ecosystem integrates **staking**, **savings**, and **yield accounts** across all coins, providing users with:
 
 - **Passive Income Opportunities**: Earn rewards or interest on staked tokens.
 - **Long-Term Incentives**: Encourage holding tokens for ecosystem stability.
@@ -91,12 +94,12 @@ For more details, see the **Staking, Savings, and Yield Accounts** documentation
 ### **Main Terminology**
 
 - **Mainnet**: Central network for managing nodes and cross-blockchain communication.
-- **ESI-01**: Main ecosystem blockchain under ESI Org.
+- **ESI-01**: Main ecosystem blockchain under **ESI Org**.
 - **Sub-Blockchains**: Independent blockchains dedicated to specific coins or tokens.
 
 ### **Coins and Stablecoins**
 
-- **Coins**: Native digital currencies under the ESI-01 ecosystem.
+- **Coins**: Native digital currencies under the **ESI-01** ecosystem.
   - **EIC**: The primary utility coin used for transactions.
 - **Stablecoins**: Digital currencies with stable values pegged to fiat or cryptocurrency.
   - **EIP**: Pegged to PHP.
@@ -120,7 +123,7 @@ For more details, see the **Staking, Savings, and Yield Accounts** documentation
 - **Developers**: Engage in blockchain development across multiple ecosystems.
 - **Community Members**: Participate in governance, staking, and other activities.
 
-Start your journey with ESI Org by submitting an application through our official channels.
+Start your journey with **ESI Org** by submitting an application through our official channels.
 
 ---
 
