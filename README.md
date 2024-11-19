@@ -95,6 +95,8 @@ For more details, see the **Staking, Savings, and Yield Accounts** documentation
 
 - **Mainnet**: Central network for managing nodes and cross-blockchain communication.
 - **ESI-01**: Main ecosystem blockchain under **ESI Org**.
+- **ESI-01T**: The Standard Token that all coins, stable coins, sub-stablecoins, and tokens follow under the **ESI Org**.
+- **ESICT**: The token that is to be paid for all fees within the **ESI Org** ecosystem and **ESI Mainnet**.
 - **Sub-Blockchains**: Independent blockchains dedicated to specific coins or tokens.
 
 ### **Coins and Stablecoins**
