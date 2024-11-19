@@ -78,7 +78,7 @@ The **ESI Mainnet** is the primary blockchain that supports the ecosystem of sta
 
 #### **ESI ORG**
 
-#### **ESI MAINNET | ESICT**
+#### **ESI MAINNET | ESICT | ESI-01T**
 
 #### **ESI-01**
 
