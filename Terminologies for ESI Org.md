@@ -222,3 +222,7 @@ ESI ORG
     - EIP, EID, and EIO operate on their respective chains.
 - SubStableCoins: Mirror assets like BTC and ETH or hybrid values.
     - EIB, EIE, and EIBE have their own isolated blockchains for specific utility.
+
+## Legal Note
+
+The tokens, standards, and blockchains described in this document are strictly for utility and operational use within the ESI Org ecosystem. They are not intended as investment vehicles, securities, or commodities. The ESI Org does not provide profit-sharing, dividends, or returns on any digital asset described herein. All operations, minting, and governance remain under the sole authority of James Dominic Liao. Public trading, ICOs, or token sales are not governed by this document and are defined separately.
