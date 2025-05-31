@@ -1,77 +1,50 @@
-# ESI Fee Structure
+# ESI Org Fee Structure
 
-The **ESI Org** ecosystem includes various stablecoins and blockchain architectures, such as **EsiCoin (EIC)**, **EsiPeso (EIP)**, **EsiUSD (EID)**, **EsiCrypto (EIO)**, and other assets operating across the multiple sub-blockchains like **EIC-01**, **EIP-01**, **EID-01**, **EIO-01**, and others. As part of a unified framework, these tokens and their associated blockchains will follow a consistent fee structure to ensure seamless operations across the entire ecosystem.
+The **ESI Org** ecosystem operates across a unified, self-contained blockchain architecture. It includes multiple digital assets such as **EsiCoin (EIC)**, **EsiPeso (EIP)**, **EsiUSD (EID)**, **EsiCrypto (EIO)**, and associated sub-stablecoins like **EsiBTC**, **EsiETH**, and **EsiBTC-ETH**. All blockchains within the ecosystem — such as **EIC-01**, **EIP-01**, **EID-01**, and **EIO-01** — operate under a standardized, internal-only fee structure. This structure uses **ESI Coin Token (ESICT)** as the exclusive unit of account for all platform-related transaction fees.
 
-## Unified Fee Structure for the ESI Org Ecosystem
+## Fee Token: ESI Coin Token (ESICT)
 
-The fee structure applies uniformly across all stablecoins and blockchains within the **ESI Org** ecosystem. Whether you're dealing with **EsiCoin**, **EsiPeso**, **EsiUSD**, **EsiCrypto**, or their associated sub-stablecoins (e.g., **EsiBtc**, **EsiEth**, **EsiBTC-ETH**), the fee structure ensures consistency, security, and fairness.
+All fees, regardless of which blockchain or token is being used, are settled in **ESICT**, a system-designated token that governs operational costs and utility charges throughout the ESI Org ecosystem.
 
-### 1. **Transfer Fees (Wallet Transfers within ESI Org Blockchain)**
+## Cross-Border Fiat Withdrawals
 
-- **Fixed Fee**: 0.1 EIP/EIC/EID/EIO for every wallet transfer within the respective blockchain (EIC-01, EIP-01, EID-01, EIO-01, etc.).
+- **Domestic Withdrawals (Philippines)**  
+  Conversions of **EsiPeso (EIP)** to fiat Philippine Peso (₱) follow a 1:1 ratio. There are no additional withdrawal fees for users based in the Philippines.
 
-### 2. **Exportation Fee (Transfers from ESI Org Wallets to External Wallets)**
+- **International Withdrawals**  
+  Users outside the Philippines withdrawing to their local bank accounts are charged a **fixed fee of $15 USD**, payable in **ESICT**. This fee covers processing, conversion, and internal compliance checks.
 
-- **Fixed Fee**: 0.05 EIP/EIC/EID/EIO for transferring from **ESI Org** wallets to external wallets.
+- **Conversion Handling**  
+  All fiat withdrawals — domestic or international — are processed **directly by ESI Org**, without third-party processors. This ensures full control and consistency across all use cases within the organization's digital platforms, even those outside the main **esi-org** domain.
 
-### 3. **Importation Fee (Transfers from External Wallets to ESI Org Wallets)**
+## High-Risk Transaction Security Fees
 
-- **Fixed Fee**: 2 EIP/EIC/EID/EIO for transferring into **ESI Org** wallets from external wallets.
+To safeguard the ecosystem and deter abuse, **extreme measures apply to high-risk transactions**, including:
 
-### 4. **NFT/TA Listing Fees**
+- **Fiat Transactions Marked High-Risk**:  
+  A **security fee of 25%** of the fiat amount will be automatically deducted.
 
-- **Free Listings**: Users can list NFTs/TA for free if they are created or minted within the **ESI Org** blockchain ecosystem (e.g., EIC-01, EIP-01, EID-01, EIO-01).
-- **Fee for Non-Ecosystem NFTs/TA**: A 1% fee for listing NFTs/TA created outside of the ecosystem on the platform.
+- **Crypto Transactions Marked High-Risk**:  
+  A **security fee of 50%** of the crypto amount will be automatically deducted.
 
-### 5. **Creator Royalty Fees**
+These security measures act as strong deterrents for fraudulent, illegal, or manipulated activities. High-risk transactions are **flagged and enforced by ESI Org** and executed via pre-set smart contracts aligned with the organization’s internal protocols.
 
-- **Fixed Range for Royalties**: Users can set their royalty fee on their NFTs/TA, but the royalty fee cannot exceed 100 EIP/EIC/EID/EIO.
-- **Royalty on Resale**: When a user resells their NFT/TA, the original creator receives the royalty amount as set when the NFT was minted.
+## Refunds and Recovery Policies
 
-### 6. **DeFi Transaction Fees**
+- **User-Initiated Refunds**  
+  If a user requests a refund voluntarily (e.g., due to change of mind or input error), a **2.5% non-refundable security fee** is automatically applied. This serves as a deterrent against casual misuse and ensures platform stability.
 
-- **Fixed Rate for Transactions**: 1% fee on all **DeFi** transactions.
-- **Lending and Borrowing Fees**: 0.02% fee for lending and borrowing transactions.
-- **Yield Farming Fees**: 2% fixed fee for yield farming transactions.
-- **Dynamic Fees for Congestion**: Network congestion will trigger dynamic fees for transactions during times of high network demand.
-- **Cross-Chain and Cross-Border Fees**: Fees apply for cross-chain and cross-border transactions, depending on the specific conditions of the transaction.
+- **Transaction Recovery in Lost or Failed Transfers**  
+  In the event of a verified transaction failure or loss during transit, **only 25% of the original transaction amount is recoverable**. This cap acknowledges internal resource constraints and the partially irreversible nature of some blockchain activities.
 
-### 7. **Withdrawal Fees to Bank Accounts (via Fiat Currency)**
+## Fee Structure Policy
 
-- **Philippines Withdrawals**: A 1:1 ratio for EIP/EIC to PHP conversion, as the **EsiPeso** is pegged to the Philippine Peso.
-- **International Withdrawals**: Withdrawals outside of the Philippines will be subject to market and conversion rates, with a fixed base fee applied based on the formula (100 PHP multiplied by the conversion rate at the time of the transaction).
+All fees — whether for withdrawals, security enforcement, or administrative processing — are paid using **ESI Coin Token (ESICT)**. This ensures clarity, transparency, and alignment across all sub-blockchains, assets, and dApps within the **ESI Org** ecosystem.
 
-### 8. **Refund Processing Fee (If Applicable)**
+The **fee policies** are designed to:
+- Maintain operational integrity,
+- Discourage high-risk or malicious behavior,
+- Simplify cross-border use cases, and
+- Promote responsible usage within ESI Org’s internal financial system.
 
-- **User-Initiated Refund**: A 2.5% fixed fee will be charged for user-initiated refunds due to change of mind, misuse, or other user-driven reasons (excluding system errors).
-- **Refund Scenario**: Users will receive 25% of the original amount in refunds for valid cases where the refund is applicable.
-
-### 9. **Security Fees for High-Risk Transactions**
-
-- **High-Risk Transaction Fee (Policy)**: A fixed security fee of 50% of the entire amount for transactions involving high-risk activities (e.g., large amounts of fiat or crypto). This discourages any malicious or risky activity.
-- **Fiat**: 25% of the entire fiat to be exchanged.
-- **Crypto**: 50% of the entire crypto amount.
-
-### 10. **Staking and Transaction Fees**
-
-- **Staking Fees**: Fees are applied to staking transactions to support rewards infrastructure. No withdrawals are allowed before the stake matures.
-- **Staking Withdrawal Fees**: A penalty or fee for early withdrawal is applied to discourage premature unstaking.
-
-## How This Will Work for All Tokens within the ESI Org Ecosystem
-
-### 1. **Unified Transaction Processing**
-
-- Whether the user is holding **EsiCoin (EIC)**, **EsiPeso (EIP)**, **EsiUSD (EID)**, **EsiCrypto (EIO)**, or any of the sub-stablecoins (e.g., **EsiBtc**, **EsiEth**, **EsiBTC-ETH**), the fee structure will be applied uniformly.
-- When transferring between stablecoins (e.g., from **EsiPeso (EIP)** to **EsiCoin (EIC)** or **EsiUSD (EID)**), the fees involved (such as importation, exportation, or conversion fees) will be based on the transaction type, but the fee rates themselves remain the same.
-
-### 2. **Cross-Blockchain Interactions**
-
-- Although **EsiCoin**, **EsiPeso**, **EsiUSD**, **EsiCrypto**, and their associated stablecoins (e.g., **EsiBtc**, **EsiEth**, **EsiBTC-ETH**) operate on separate blockchains (e.g., **EIC-01**, **EIP-01**, **EID-01**, **EIO-01**), their shared **ESI Org** ecosystem ensures interoperability. This allows seamless transactions with a consistent fee structure, irrespective of which blockchain the asset originates from.
-
-### 3. **Flexibility for Future Adjustments**
-
-- While the fee structure is consistent for all tokens, there will be periodic reviews and adjustments based on market conditions, inflation rates, and the overall health of the ecosystem. For instance, fees could be adjusted dynamically based on network congestion or other economic factors, ensuring fairness for all users.
-
----
-
-End of the **ESI Org** Fee Structure.
+The fee structure is subject to **periodic internal review**, but remains **centrally managed by ESI Org** and **executed by smart contracts** according to organization-defined rules.
