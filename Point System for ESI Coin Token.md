@@ -11,12 +11,12 @@ The **Points System** is designed to reward user activity within the **ESI Org p
 ### Earning Esi Points (EP)
 
 - Users earn EP through valid, completed transactions on the platform.
-- Fixed Rate: 1 transaction = 1 EP
+- **Fixed Rate**: 1 transaction = 1 EP
 - Smart contracts verify the legitimacy of transactions in real time to prevent abuse.
 
 ### Redeeming EP for ESICT
 
-- Redemption Ratio: 5 EP = 1 ESICT
+- **Redemption Ratio**: 5 EP = 1 ESICT
 - Each redemption transaction can convert up to 100 EP.
 - Redemption applies only to ESICT, which is used for paying gas and other platform-related service fees.
 
@@ -42,13 +42,13 @@ The **Points System** is designed to reward user activity within the **ESI Org p
 
 ## User Benefits
 
-- Platform Utility: Every action on the platform helps users accumulate EP, which can then be used to cover real system fees (via ESICT).
-- Non-Monetary Rewards: The system encourages engagement without promoting financial speculation.
-- Gamified Experience: Real-time dashboards and redemption tools make usage feel interactive and rewarding.
+- **Platform Utility**: Every action on the platform helps users accumulate EP, which can then be used to cover real system fees (via ESICT).
+- **Non-Monetary Rewards**: The system encourages engagement without promoting financial speculation.
+- **Gamified Experience**: Real-time dashboards and redemption tools make usage feel interactive and rewarding.
 
 ## Limitations
 
-- Expiration: EP expire 30 days after issuance. Users must manage their redemptions proactively.
-- Non-Transferable: EP are bound to the account that earned them and cannot be transferred between users.
-- No Market Value: Neither EP nor ESICT can be exchanged, traded, or sold for money or other assets.
-- Maintenance Risk: Unredeemed points may be lost during updates if not secured in advance.
+- **Expiration**: EP expire 30 days after issuance. Users must manage their redemptions proactively.
+- **Non-Transferable**: EP are bound to the account that earned them and cannot be transferred between users.
+- **No Market Value**: Neither EP nor ESICT can be exchanged, traded, or sold for money or other assets.
+- **Maintenance Risk**: Unredeemed points may be lost during updates if not secured in advance.

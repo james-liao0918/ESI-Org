@@ -2,131 +2,137 @@
 
 ## Introduction
 
-Blockchain as a Service (BaaS) is a comprehensive framework designed to provide businesses, organizations, and individual users with access to blockchain technology without the need for direct management or infrastructure. The BaaS framework developed by **ESI Org** supports the full range of its blockchain ecosystems, including **EsiCoin**, **EsiPeso**, and other stablecoins, and enables cross-blockchain communication and transaction services. This BaaS model provides a scalable and customizable solution for enterprises and individuals to integrate blockchain technology into their operations.
+**Blockchain-as-a-Service** (BaaS) is a modular, client-centric framework that enables businesses, developers, and organizations to access and deploy blockchain solutions without managing the underlying infrastructure. The BaaS platform offered by **ESI Org** supports a full range of configurable **blockchain and sub-blockchain environments**, enabling clients to select, deploy, and operate their own blockchain systems based on their specific needs.
+
+This offering provides a plug-and-play model for **blockchain** adoption—covering everything from tokenized economies, smart contract automation, and data immutability, to cross-chain connectivity and decentralized governance.
 
 ## Framework Overview
 
-The BaaS framework for **ESI Org** is built to provide flexible, secure, and scalable blockchain services for organizations of all sizes. The framework offers essential services with additional options (riders) that can be selected to suit the unique needs of businesses and developers within the **ESI Org** ecosystem.
+The **BaaS system** is built to provide scalable, secure, and flexible blockchain infrastructure for a broad spectrum of use cases. **Clients** may choose from an existing suite of Mainchains, Stablechains, or Subchains, or request the deployment of **private or custom blockchains** for dedicated business applications.
 
-### 1. **Core BaaS Framework**
+### Core BaaS Package
 
-The base package of the BaaS framework includes essential blockchain services that are vital for any organization or individual looking to leverage the power of blockchain technology:
+The base offering includes fundamental blockchain capabilities, with optional upgrades through modular add-ons:
 
-- **Blockchain Infrastructure**: Hosting and maintaining the **ESI-01**, **EIP-01**, **EID-01**, and other blockchain architectures under the **ESI Org** ecosystem.
-- **Transaction Services**: Secure, real-time transaction management across all **ESI Org** blockchains and stablecoins (EsiCoin, EsiPeso, EsiUSD, etc.).
-- **Token Management**: Minting, transferring, and exchanging stablecoins such as **EIP**, **EID**, **EIO**, and other stablecoins under the **ESI Org** ecosystem.
-- **Security and Compliance**: Advanced security features such as multi-sig, AML/KYC protocols, compliance monitoring, and audit trails for transactions.
+- Blockchain Infrastructure: Choose from a catalog of mainnets (e.g., Chain-01, StableChain-01, CustomChain-X) or deploy a new blockchain instance with tailored configurations.
+- Transaction Services: Secure, real-time transaction processing across selected chains, with configurable transaction models and fee structures.
+- Token Lifecycle Management: Mint, issue, transfer, and burn tokens on the selected blockchain(s), including native coins, stablecoins, or utility tokens.
+- Security & Compliance Tools: Multi-signature wallets, role-based permissions, KYC/AML integrations, transaction logging, and audit trails.
   
-### 2. **Add-On Riders**
+### Add-On Riders (Modular Features)
 
-Organizations can extend the core functionality of the BaaS framework by selecting additional riders based on their business needs. These riders enhance the framework with extra features and capabilities.
+Clients may customize their blockchain setup with the following optional services:
 
-#### a) **Smart Contract Rider**
+#### a) Smart Contract Module
+Use: Deploy programmable contracts for automation, dApps, and decentralized processes.
 
-- **Purpose**: Deploy and manage custom smart contracts for business automation, agreements, and decentralized applications (dApps).
-  - **Benefit**: Empower businesses to create programmable contracts and reduce the need for intermediaries.
+Ideal for: Fintech, logistics, governance automation, insurance, and legal applications.
 
-#### b) **Governance Rider**
+#### b) Governance Module
+Use: Enable voting, DAO management, and collaborative governance on-chain.
 
-- **Purpose**: Provides tools for decentralized governance, including voting, decision-making, and DAO management.
-- **Benefit**: Organizations can build decentralized autonomous organizations (DAOs) for governance, enabling transparent decision-making.
+Ideal for: DAOs, cooperatives, digital communities, and democratic institutions.
 
-#### c) **Data Storage Rider**
+#### c) Decentralized Storage Module
+Use: Store records, data, files, or documents securely on a decentralized network.
 
-- **Purpose**: Use decentralized storage solutions for storing data securely and immutably.
-- **Benefit**: Secure and scalable data storage for business documents, records, and blockchain-related data.
+Ideal for: Legal firms, educational records, compliance systems, and media platforms.
 
-#### d) **Cross-Chain Integration Rider**
+#### d) Cross-Chain Integration Module
+Use: Facilitate interoperability between your blockchain and external networks (e.g., Ethereum, Solana, other public/private chains).
 
-- **Purpose**: Facilitate seamless interactions and transactions between the **ESI Org** blockchain ecosystem and external blockchain networks.
-- **Benefit**: Access wider markets, assets, and services by connecting with other blockchain networks.
+Ideal for: DeFi platforms, NFT bridges, or multi-network ecosystems.
 
-#### e) **Private Blockchain Rider**
+#### e) Private Chain Module
+Use: Launch a permissioned, private blockchain for internal operations or consortiums.
 
-- **Purpose**: Set up private or permissioned blockchain networks for internal business use or consortiums.
-- **Benefit**: Keep full control over participants and governance while utilizing the security of blockchain technology.
+Ideal for: Enterprises, government units, or financial institutions requiring control over participation and data access.
 
-### 3. **Optional Features for Customization**
 
-In addition to riders, businesses can further customize their BaaS implementation by opting for the following features:
+### Optional Customization Features
 
-- **Staking & Rewards Management**: Enable users to stake EsiCoin, EsiPeso, and other stablecoins, earning rewards for network participation.
-- **API Integrations**: Integrate blockchain functionality with existing business applications and platforms.
-- **Advanced Security Protocols**: Implement encryption, hardware security modules (HSM), and other features to secure data and transactions.
+These features enhance user control, integration, and efficiency:
 
-## BaaS Pricing Structure
+- Staking & Rewards Engine: Enable staking mechanisms and reward distribution.
+- Custom API Integrations: Integrate blockchain functions with ERP, CRM, payment gateways, or other business systems.
+- Advanced Security Features: Encryption protocols, HSM integration, and blockchain forensics.
 
-### 1. **Base Pricing for BaaS**
+### Pricing Structure
 
-The base pricing for the BaaS offering includes access to the core blockchain infrastructure, transaction management, and security compliance.
+#### ESI Org BaaS Subscription Plans
 
-#### Pricing Models
+Each plan comes with a 6-month lock-in period before clients can upgrade to a higher tier. This ensures service consistency and resource stability.
 
-- **Small Business**: $500/month (includes up to 1,000 transactions and basic blockchain functionality).
-- **Medium Business**: $1,200/month (includes up to 10,000 transactions, basic API access, and additional features).
-- **Enterprise**: $5,000/month (includes unlimited transactions, full API access, dedicated support, and customized smart contract deployments).
+1. **Basic Plan – $250/month**
+Ideal for beginners or small projects testing blockchain use cases.
 
-### 2. **Rider Pricing**
+Includes:
 
-Each rider is priced separately depending on the features it provides:
+✅ 1 Blockchain of choice (from ESI Org)
+✅ 1 Smart Contract
+✅ 3,000 Transactions per Month
+✅ 25 GB Decentralized Storage
+✅ Add-ons allowed (see below)
+📞 Email-only support
+🔒 6-Month Lock-In
 
-- **Smart Contract Rider**: $300/month
-- **Governance Rider**: $500/month
-- **Data Storage Rider**: $400/month for 1TB of decentralized storage
-- **Cross-Chain Integration Rider**: $600/month
-- **Private Blockchain Rider**: $1,000/month
+2. **Advanced Plan – $500/month**
+For developers, individuals, or small teams scaling their blockchain presence.
 
-### 3. **Transaction Fees**
+Includes:
 
-Transaction fees are applied for certain blockchain activities, including transfers, token swaps, and interactions with decentralized applications (dApps).
+✅ Up to 2 Blockchains
+✅ Up to 2 Smart Contracts
+✅ 6,000 Transactions per Month
+✅ 50 GB Decentralized Storage
+✅ Add-ons allowed
+📞 Email + Scheduled Chat Support
+🔒 6-Month Lock-In
 
-- **Transfer Fees (Wallet-to-Wallet)**: Fixed fee of 0.1 EIP/EIC for each transaction.
-- **Exportation Fee**: Fixed fee of 0.05 EIP/EIC for wallet-to-external transfers.
-- **Importation Fee**: Fixed fee of 2 EIP/EIC for external-to-wallet transfers.
-- **NFT/TA Listing Fees**: Free for ecosystem-native NFTs/TA, 1% fee for external assets.
-- **DeFi Transaction Fees**
-  - 1% fee for standard transactions.
-  - 0.02% for lending and borrowing.
-  - 2% for yield farming transactions.
-  - Dynamic fees during network congestion.
-  - Cross-chain and cross-border fees as applicable.
+3. **Professional Plan – $1,000/month**
+Perfect for communities, startups, and product teams deploying real applications.
 
-### 4. **Additional Features Pricing**
+Includes:
 
-Some services incur additional charges for enhanced capabilities:
+✅ Up to 4 Blockchains
+✅ Up to 4 Smart Contracts
+✅ 12,000 Transactions per Month
+✅ 100 GB Decentralized Storage
+✅ Add-ons allowed
+📞 Priority Email + 1x Monthly Live Support Call
+🔒 6-Month Lock-In
 
-- **Cross-Chain Integration**: $500/month for unlimited cross-chain transactions.
-- **Private Blockchain**: $1,500/month for private enterprise blockchain networks.
-- **Data Storage**: $400/month for 1TB of decentralized storage.
+4. **Executive Plan – $2,000/month**
+Tailored for high-volume, production-ready dApps, DAOs, or ecosystem platforms.
 
-## Appendix: Suggested Pricing Model
+Includes:
 
-**Basic BaaS Package**:
+✅ Up to 8 Blockchains
+✅ Up to 8 Smart Contracts
+✅ 24,000 Transactions per Month
+✅ 200 GB Decentralized Storage
+✅ Add-ons allowed
+✅ DAO & Governance Toolkit included
+📞 Dedicated Account Support + Onboarding Help
+🔒 6-Month Lock-In
 
-- Small Business: $500/month
-- Medium Business: $1,200/month
-- Enterprise: $5,000/month
+**Optional Add-Ons**(Quoted Separately)
+Add-ons are available for all plans and are tailored to the client’s needs:
 
-**Riders**:
-
-- Smart Contract Rider: $300/month
-- Governance Rider: $500/month
-- Data Storage Rider: $400/month
-- Cross-Chain Integration Rider: $600/month
-- Private Blockchain Rider: $1,000/month
+- Extra Blockchains
+- Additional Smart Contracts
+- Increased Decentralized Storage
+- DAO & Governance Toolkit
+- Private Blockchain Deployment
+- Cross-Chain Gateway Support
+- Interoperability Services
+- Custom Security Layers
+- Integration with External Apps / APIs
 
 ### Revenue Streams
 
-1. **Transaction Fees**: Revenue from users conducting transactions within the **ESI Org** ecosystem.
-2. **Smart Contract Deployment Fees**: Businesses can earn revenue from deploying and interacting with custom smart contracts.
-3. **Storage Fees**: Charging for decentralized file storage solutions.
-4. **Cross-Chain Revenue**: Revenue from cross-chain transactions and integrations with external blockchain ecosystems.
-5. **Rider Fees**: Additional income from businesses choosing extra features like governance tools, data storage, or private blockchains.
+**ESI Org** generates revenue through a tiered subscription model, modular add-on services, and on-demand customization, catering to a wide range of users including individuals, communities, and businesses. The core of the income comes from monthly subscription plans starting at $250 and scaling up to $2,000, each with a fixed set of inclusions such as blockchain access, transaction limits, and smart contract deployment, all under a 6-month lock-in period to ensure service stability. Additional revenue is generated through customizable add-ons such as extra blockchains, increased decentralized storage, DAO setup, cross-chain deployment, and smart contract expansions—all of which are available upon request and priced based on project complexity. Clients who exceed their transaction limits are charged overage fees, providing a recurring micro-transaction revenue stream. **ESI Org** also monetizes proprietary ecosystem tools and utilities like token generators, governance systems, and analytics dashboards through optional software licensing. For clients seeking tailored blockchain design, tokenomics modeling, or full onboarding support, **ESI Org** offers premium consulting and white-label services. In future phases, native tokens such as ESICT or stable assets like EIP and EID may be integrated for payments, staking benefits, or validator fees, enabling deeper token utility and contributing to a dynamic, self-sustaining ecosystem economy.
 
-## Conclusion
+### Conclusion
 
-The BaaS framework developed by **ESI Org** provides a comprehensive, scalable, and secure solution for businesses, organizations, and individuals looking to integrate blockchain technology. With flexible pricing, customizable options through riders, and strong security features, the framework empowers users to harness the full potential of blockchain while ensuring economic sustainability and growth.
-
----
-
-End of the BaaS Framework for ESI Org.
+This **BaaS framework** is designed for flexibility and control. By allowing clients to choose from a wide variety of blockchains and sub-blockchains—or deploy their own custom chain—you offer a scalable, future-proof solution for industries seeking blockchain adoption. Whether for public dApps, enterprise systems, or secure internal networks, this platform empowers users to unlock the full potential of blockchain with minimal overhead and maximum configurability.
