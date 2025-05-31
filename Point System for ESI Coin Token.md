@@ -1,63 +1,54 @@
 # **Points System for ESI Coin Token (ESICT)**
 
----
+## Overview
 
-## **Overview**
+The **Points System** is designed to reward user activity within the **ESI Org platform** by issuing **Esi Points** (EP), which can be redeemed for **ESI Coin Tokens** (ESICT). **ESICT** is the internal utility token used to pay for gas fees and other service-related functions on the platform.
 
-The points system rewards users for participating in the ESI Org platform, allowing points to be exchanged for ESI Coin Tokens (ESICT). It incentivizes engagement and aligns platform activity with ESI Org's goals.
+**ESICT** is a non-tradable, non-monetary digital asset. It cannot be bought, sold, exchanged for fiat or crypto, or withdrawn. **ESICT** exists solely for use within the **ESI Org ecosystem** and has no external or speculative value.
 
----
+## System Features
 
-## **Key Features**
+### Earning Esi Points (EP)
 
-### **1. Points Earning**
+- Users earn EP through valid, completed transactions on the platform.
+- Fixed Rate: 1 transaction = 1 EP
+- Smart contracts verify the legitimacy of transactions in real time to prevent abuse.
 
-- Users earn points for **all transactions** within the platform.  
-- **Fixed Reward Rate:** 1 transaction = **1 Esi Point (EP)**.  
-- Fraud detection via **smart contracts** ensures only valid transactions earn points.
+### Redeeming EP for ESICT
 
----
+- Redemption Ratio: 5 EP = 1 ESICT
+- Each redemption transaction can convert up to 100 EP.
+- Redemption applies only to ESICT, which is used for paying gas and other platform-related service fees.
 
-### **2. Points Conversion to ESICT**
+### Point Expiry and Use
 
-- **Conversion Rate (CR):** 5 EP = 1 ESICT.  
-- Users can convert points up to a **maximum of 100 points per transaction**.  
-- Conversion applies only to ESICT and not other tokens or coins.
+- EP are valid for 30 days from the date of earning.
+- Expired points are non-transferable, non-recoverable, and permanently removed.
+- Users are encouraged to redeem EP within the validity period to maximize value.
 
----
+### Activity-Based Bonuses
 
-### **3. Points Expiry**
+- Users who remain active and engaged throughout the month may receive a Monthly Bonus of 25 ESICT.
+- Bonuses are distributed automatically by smart contracts based on predefined engagement criteria.
 
-- Points have a **30-day validity period** from the date of earning.  
-- Unused points expire after 30 days and are non-transferable and non-recoverable.
+### System Integrity and Maintenance
 
----
+- All transactions are monitored through smart contracts to detect unusual patterns or potential fraud.
+- If fraudulent behavior is confirmed:
+    - The associated account may be flagged or terminated.
+    - All remaining unredeemed points and ESICT may be returned to the system reserve.
+- During system updates or maintenance, users may pre-transfer earned points to their account wallets for safety.
+- Points lost during downtime cannot be recovered.
 
-### **4. Additional Incentives**
+## User Benefits
 
-- Users who engage consistently receive an **extra 25 ESICT monthly** as a bonus.  
-- Participation bonuses encourage consistent activity within the platform.
+- Platform Utility: Every action on the platform helps users accumulate EP, which can then be used to cover real system fees (via ESICT).
+- Non-Monetary Rewards: The system encourages engagement without promoting financial speculation.
+- Gamified Experience: Real-time dashboards and redemption tools make usage feel interactive and rewarding.
 
----
+## Limitations
 
-### **5. Fraud Prevention and System Updates**
-
-- Fraud is monitored by **smart contracts** to detect anomalies in high-value or frequent transactions.  
-- Smart contracts handle point reallocation if fraud is detected; fraudulent accounts are deleted, and remaining funds are retained by the system.  
-- During **system updates** or maintenance, users can transfer points to their wallets to avoid potential losses. Points lost during this time are **not recoverable**.
-
----
-
-## **Benefits to Users**
-
-- **Earned Value:** Every transaction contributes to the user's points balance, creating tangible value.  
-- **Gamification Potential:** The system creates a game-like engagement layer, where users are rewarded for activity.  
-- **Transparent Rewards:** Dashboard tools enable users to track their earned points and conversions in real-time.
-
----
-
-## **Potential Limitations**
-
-1. **Point Expiry:** Users need to be mindful of the 30-day expiry rule to maximize rewards.  
-2. **Non-Transferability:** Points cannot be transferred between users, which may limit collaborative use.  
-3. **Loss Risk During Maintenance:** While measures are in place, users face potential loss during updates.
+- Expiration: EP expire 30 days after issuance. Users must manage their redemptions proactively.
+- Non-Transferable: EP are bound to the account that earned them and cannot be transferred between users.
+- No Market Value: Neither EP nor ESICT can be exchanged, traded, or sold for money or other assets.
+- Maintenance Risk: Unredeemed points may be lost during updates if not secured in advance.
